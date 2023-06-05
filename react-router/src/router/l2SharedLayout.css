@@ -1,0 +1,8 @@
+.l2SharedLayout .navbar {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+.l2SharedLayout .navbar .link {
+  margin-right: 2rem;
+}

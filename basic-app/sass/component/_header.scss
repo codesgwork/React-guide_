@@ -1,0 +1,24 @@
+.header {
+  background-color: #cef5a7;
+  //   display: grid;
+  //   grid-template-columns: 5vw repeat(3, minmax(min-content, 1fr)) 2vw;
+  //   grid-template-rows: repeat(2, 1fr);
+  //   align-items: center;
+
+  .title {
+    @include widthAuto;
+    padding: 5rem 0;
+    // grid-column: 2/4;
+    // grid-row: 1/2;
+  }
+  .text {
+    @include widthAuto;
+    // padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    // grid-column: 2/4;
+    // grid-row: 2/3;
+    // align-self: self-start;
+  }
+  // display: flex;
+  // flex-direction: column;
+}

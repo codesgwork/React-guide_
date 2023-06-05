@@ -1,0 +1,67 @@
+.vtitle {
+  margin: 0 auto;
+  max-width: 90%;
+}
+.vlearn {
+  background-color: #fff;
+  margin: 0 auto;
+  max-width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.vifrm {
+  border: 0;
+  height: 480px;
+  width: 853px;
+  max-width: 100%;
+  background-color: #706d6d;
+}
+.vlinks {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+.vlinks a {
+  text-decoration: none;
+  color: #000;
+}
+.plink {
+  padding: 1rem;
+  border-radius: 5px;
+}
+.plink li {
+  list-style-type: none;
+}
+
+.linkNo {
+  display: flex;
+  margin-bottom: 10px;
+}
+.linkNo li {
+  margin-right: 1rem;
+}
+.linkIcon {
+  display: flex;
+  margin-left: 1rem;
+  font-size: 12px;
+}
+.linkIcon li {
+  margin-left: 1rem;
+}
+.svgicon {
+  /* display: inline-block; */
+  width: 12px;
+  height: 12px;
+  stroke-width: 0.25;
+  /* stroke: currentColor; */
+  stroke: #3330f9;
+  fill: currentColor;
+}
+.svgicolayers {
+  color: #3330f9;
+}
+.plink:hover{
+  background-color: hsla(0, 4%, 80%, 0.514);
+}

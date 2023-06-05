@@ -1,0 +1,45 @@
+.current-player {
+  margin: 2rem;
+  display: flex;
+}
+.current-player .ifrm {
+  margin-right: 2rem;
+}
+.vlinks-section {
+  margin-left: 2rem;
+}
+.vlinks {
+  /* padding: 10px; */
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.vlinks .vtitle {
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+}
+.vlinks .vtitle .li1 {
+  /* margin-right: 1rem; */
+  /* padding-bottom: 5px; */
+  width: 35px;
+}
+
+.vlinks .vicon {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 2.2rem;
+}
+.vlinks .vicon .svg {
+  margin-right: 1rem;
+}
+.vlinks .vicon .li1 {
+  font-size: 12px;
+}
+
+.vicon .svg-icon {
+  width: 1rem;
+  height: 1rem;
+  stroke-width: 0.25;
+  fill: #6c6768;
+}

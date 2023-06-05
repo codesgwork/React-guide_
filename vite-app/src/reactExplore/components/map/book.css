@@ -1,0 +1,14 @@
+.book-cont {
+  /* height: 20rem;
+  width:20rem ; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.image-frame {
+  height: 16rem;
+  width: 20rem;
+}
+.text-note {
+  padding: 20px 10px;
+}
